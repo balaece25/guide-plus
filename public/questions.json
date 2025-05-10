@@ -1,0 +1,94 @@
+{
+  "Permanent Resident": [
+    {
+      "id": "q1",
+      "text": "Are you currently residing in the country on a valid visa?",
+      "yes": "q2",
+      "no": "q3"
+    },
+    {
+      "id": "q2",
+      "text": "Have you lived here continuously for at least 2 years?",
+      "yes": "q4",
+      "no": "q5"
+    },
+    {
+      "id": "q3",
+      "text": "Are you planning to move here within the next 6 months?",
+      "yes": "q5",
+      "no": "end"
+    },
+    {
+      "id": "q4",
+      "text": "Have you maintained a clean legal record?",
+      "yes": "q6",
+      "no": "end"
+    },
+    {
+      "id": "q5",
+      "text": "Are you employed or have a job offer in this country?",
+      "yes": "q6",
+      "no": "end"
+    },
+    {
+      "id": "q6",
+      "text": "Have you taken a language proficiency test (if required)?",
+      "yes": "end",
+      "no": "end"
+    }
+  ],
+
+  "Student Visa": [
+    {
+      "id": "q1",
+      "text": "Have you received an offer letter from an accredited institution?",
+      "yes": "q2",
+      "no": "q3"
+    },
+    {
+      "id": "q2",
+      "text": "Do you have the financial means to support your studies?",
+      "yes": "q4",
+      "no": "end"
+    },
+    {
+      "id": "q3",
+      "text": "Are you currently applying to institutions?",
+      "yes": "q2",
+      "no": "end"
+    },
+    {
+      "id": "q4",
+      "text": "Have you taken an accepted language proficiency test?",
+      "yes": "end",
+      "no": "end"
+    }
+  ],
+
+  "Work Permit": [
+    {
+      "id": "q1",
+      "text": "Do you have a job offer from an employer in the country?",
+      "yes": "q2",
+      "no": "q3"
+    },
+    {
+      "id": "q2",
+      "text": "Does the employer provide visa sponsorship?",
+      "yes": "q4",
+      "no": "end"
+    },
+    {
+      "id": "q3",
+      "text": "Are you eligible for an open work permit (e.g., spousal or graduate)?",
+      "yes": "q4",
+      "no": "end"
+    },
+    {
+      "id": "q4",
+      "text": "Do you meet the health and background check requirements?",
+      "yes": "end",
+      "no": "end"
+    }
+  ]
+}
