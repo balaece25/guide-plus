@@ -1,17 +1,47 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
+import { Container, Card, Button } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
-function LandingPage({ onStart }) {
+function LandingPage() {
+  const [categories, setCategories] = useState([]);
+
+  useEffect(() => {
+    fetch('/questions.json')
+      .then((response) => response.json())
+      .then((data) => {
+        const uniqueCategories = [...new Set(data.map((q) => q.topic))];
+        setCategories(uniqueCategories);
+      })
+      .catch((error) => console.error('Error loading topics:', error));
+  }, []);
+
   return (
-    <div className="card shadow p-4">
-      <h2 className="card-title text-center">Welcome to Guide Plus</h2>
-      <p className="card-text text-center">
-        A guided decision-making assistant tailored for your needs.
-      </p>
-      <div className="d-grid">
-        <button className="btn btn-primary" onClick={onStart}>Start</button>
-      </div>
+    <div className="landing-page" style={{ backgroundColor: '#f8f9fa', minHeight: '100vh', paddingTop: '2rem' }}>
+      <Container>
+        <h1 className="text-center mb-4">Welcome to Voir Dire</h1>
+        <h3>Select a Topic to Begin</h3>
+        <div className="row">
+          {categories.map((category) => (
+            <div key={category} className="col-md-4 mb-4">
+              <Card className='shadow'>
+                <Card.Header>{category}</Card.Header>
+                <Card.Body>
+                  <Button
+                    as={Link}
+                    to={`/questionnaire/${encodeURIComponent(category)}`}
+                    variant="primary"
+                  >
+                    Go to Questions
+                  </Button>
+                </Card.Body>
+              </Card>
+            </div>
+          ))}
+        </div>
+      </Container>
     </div>
   );
 }
 
 export default LandingPage;
+

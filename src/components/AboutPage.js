@@ -2,7 +2,7 @@ import React from 'react';
 
 function AboutPage() {
   return (
-    <div className="card p-4 shadow">
+    <div className="">
       <h3>About Guide Plus</h3>
       <p>
         Guide Plus is a personalized consulting assistant designed to help users navigate key decisions related to immigration, career, and more.

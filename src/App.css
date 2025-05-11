@@ -36,3 +36,70 @@
     transform: rotate(360deg);
   }
 }
+
+App {
+  text-align: center;
+}
+
+.landing-page {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.card {
+  max-width: 600px;
+  margin: auto;
+}
+
+.card-title {
+  font-size: 1.5rem;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  color: #1B263B;
+}
+
+button {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.question-text {
+  background-color:#f8f9fa;
+  border-radius:10px;
+  text-align:left;
+  min-height:200px;
+  font-size:1.2rem;
+  line-height:1.8;
+  white-space:pre-wrap;
+}
+
+.question-text.Question {
+  color:#1B263B;
+}
+
+.question-text.Statement {
+  color: #1B263B;
+  font-style:italic;
+}
+
+.question-text.yes {
+  color: red;
+  font-weight:500;
+}
+
+.question-text.Answer.no {
+  color: green;
+  font-weight:500;
+}
+
+.success {
+  color: #2E7D32;
+  font-weight:bold;
+  margin-top:1rem;
+}
+
+.fail {
+  color:#D32F2F;
+  font-weight:bold;
+  margin-top:1rem;
+}

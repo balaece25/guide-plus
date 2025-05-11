@@ -2,9 +2,13 @@ import React from 'react';
 import { useNavigate } from 'react-router-dom';
 
 const categories = [
-  "Permanent Resident",
-  "Student Visa",
-  "Work Permit"
+  "Documents and Witnesses",
+  "Relevance",
+  "Credibility",
+  "Opinion",
+  "Admission",
+  "Tendency and Coincidence",
+  "HearSay"
 ];
 
 function CategoriesPage() {

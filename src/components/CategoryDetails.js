@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
-import TermsModal from './TermsModal';
+import TermsModal from './TermsDialog';
 
 function CategoryDetails() {
   const { category } = useParams();
