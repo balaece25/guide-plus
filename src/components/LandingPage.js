@@ -24,7 +24,7 @@ function LandingPage() {
           {categories.map((category) => (
             <div key={category} className="col-md-4 mb-4">
               <Card className='shadow'>
-                <Card.Header>{category}</Card.Header>
+                <Card.Header className={`item ${category.toLowerCase()}`}>{category}</Card.Header>
                 <Card.Body>
                   <Button
                     as={Link}

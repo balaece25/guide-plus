@@ -340,7 +340,7 @@
     "topicseqid": 2,
     "id": "CQ001",
     "parentid": "CS001",
-    "question": "Is the evidence being used to attack the credibility of an opposing witness (EA s103)?  OR <br/>Is the evidence being used to rebut a representation that was later denied (EA s 103)? OR <br/> Is the evidence being used by a party to bolster the credibility of their own witness (EA s 108)",
+    "question": "Is the evidence being used to attack the credibility of an opposing witness (EA s103)?  OR \nIs the evidence being used to rebut a representation that was later denied (EA s 103)? OR \n Is the evidence being used by a party to bolster the credibility of their own witness (EA s 108)",
     "questiontype": "Question",
     "yesid": "CA001",
     "noid": "CA002",

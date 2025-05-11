@@ -47,7 +47,7 @@ function Questionnaire() {
 
   return (
 <Container className="my-5">
-      <h2 className="text-center mb-4">Topic: {currentQuestion.topic}</h2>
+      <h2 className={`text-center mb-4 item ${currentQuestion.topic.toLowerCase()}`}> Topic: {currentQuestion.topic}</h2>
       <div className={`question-text mb-5 p-4 ${currentQuestion.questiontype} ${currentQuestion.isnotypequestion}`}>
        {currentQuestion.question}      
        </div>
