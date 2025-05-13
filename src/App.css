@@ -149,3 +149,7 @@ button {
       top: 3px;
       padding-right:3px;
     }
+
+    .error-message{
+      color:crimson;
+    }
