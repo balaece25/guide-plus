@@ -29,6 +29,8 @@ function Login({ onLogin }) {
       setUsername('');
       setPassword('');
     }
+  } else {
+    setError('Enter username and password.');
   }
 }
 
