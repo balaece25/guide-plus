@@ -8,9 +8,9 @@ function AppNavbar({ user, onLogout }) {
       <Container>
         <Navbar.Brand as={Link} to="/">
           <img
-            src="/VD.PNG"
-            width="30"
-            height="30"
+            src="/RL.PNG"
+            width="60"
+            height="40"
             className="d-inline-block align-top"
             alt="Voir Dire Logo"
           />

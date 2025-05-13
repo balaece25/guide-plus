@@ -21,10 +21,10 @@ function Login({ onLogin }) {
 
   return (
     <Container className="d-flex justify-content-center align-items-center" style={{ minHeight: '100vh', backgroundColor: '#fff' }}>
-      <Card style={{ width: '400px' }}>
-        <Card.Body>
+      <Card style={{ width: '400px' , backgroundColor: '#303671'}}>
+        <Card.Body className="text-white">
           <Card.Title className="text-center">
-            <div><img src="/VD.png" width="130" height="100" className='d-inline-block align-top'
+            <div><img src="/RL.PNG" width="150" height="130" className='d-inline-block align-top'
             alt="Voir Dire Logo"/></div>
             Welcome to Voir Dire</Card.Title>
           <Form onSubmit={handleSubmit}>
@@ -47,7 +47,7 @@ function Login({ onLogin }) {
                 onChange={(e) => setPassword(e.target.value)}
               />
             </Form.Group>
-            <div className='d-flex justify-content-between'>            '
+            <div className='d-flex justify-content-between'>            
             <Button variant="primary" type="submit" className="w-50 mb-2">
               Login
             </Button> &nbsp;
