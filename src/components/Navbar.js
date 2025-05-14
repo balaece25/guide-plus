@@ -8,7 +8,7 @@ function AppNavbar({ user, onLogout }) {
       <Container>
         <Navbar.Brand as={Link} to="/">
           <img
-            src="/RL.PNG"
+            src="/VD.PNG"
             width="60"
             height="40"
             className="d-inline-block align-top"

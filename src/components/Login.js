@@ -40,10 +40,10 @@ function Login({ onLogin }) {
 
   return (
     <Container className="d-flex justify-content-center align-items-center" style={{ minHeight: '100vh', backgroundColor: '#fff' }}>
-      <Card style={{ width: '400px' , backgroundColor: '#303671'}}>
-        <Card.Body className="text-white">
+      <Card style={{ width: '400px' }}>
+        <Card.Body>
           <Card.Title className="text-center">
-            <div><img src="/RL.PNG" width="150" height="130" className='d-inline-block align-top'
+            <div><img src="/VD.PNG" width="150" height="130" className='d-inline-block align-top'
             alt="Voir Dire Logo"/></div>
             Welcome to Voir Dire</Card.Title>
           <Form onSubmit={handleSubmit}>
