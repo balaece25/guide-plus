@@ -11,7 +11,7 @@ function AppNavbar({ user, onLogout }) {
             src="/VD.PNG"
             width="60"
             height="40"
-            className="d-inline-block align-top"
+            className="d-inline-block align-middle"
             alt="Voir Dire Logo"
           />
           {' '}Voir Dire
