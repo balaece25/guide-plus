@@ -32,7 +32,7 @@ function Questionnaire() {
       const nextSectionTopic = nextQuestionSection["topic"];
       const categoryQuestions = allquestions.filter((q) => q.topic === decodeURIComponent(nextSectionTopic));
       setQuestions(categoryQuestions);
-      const first = categoryQuestions.find(q => q.topicseqid === 1);
+      const first = categoryQuestions.find(q => q.id === nextSectionId);
       setCurrentQuestion(first);
     } else {
     if (nextId !== '') {      

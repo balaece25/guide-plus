@@ -102,7 +102,7 @@
     "parentid": "",
     "question": "Next Threshold!",
     "questiontype": "Answer",
-    "yesid": "",
+    "yesid": "RS001",
     "noid": "",
     "isnotypequestion": "no",
     "nextsectionid": "RS001"
@@ -244,7 +244,7 @@
     "topicseqid": 2,
     "id": "RQ001",
     "parentid": "",
-    "question": "Is your evidence related to the credibility of witnesses (s 55(2)(a)) or admissibility of the evidence (s 55(2)(b)), or a failure to adduce evidence (s 55(2)(c))?",
+    "question": "Is your evidence related to the credibility of witnesses (s 55(2)(a)) or \nadmissibility of the evidence (s 55(2)(b)), or\n a failure to adduce evidence (s 55(2)(c))?",
     "questiontype": "Question",
     "yesid": "RA001",
     "noid": "RQ002",
@@ -306,7 +306,7 @@
     "parentid": "RA002",
     "question": "Next Threshold!",
     "questiontype": "Answer",
-    "yesid": "",
+    "yesid": "CS001",
     "noid": "",
     "isnotypequestion": "no",
     "nextsectionid": "CS001"
@@ -340,7 +340,7 @@
     "topicseqid": 2,
     "id": "CQ001",
     "parentid": "CS001",
-    "question": "Is the evidence being used to attack the credibility of an opposing witness (EA s103)?  OR \nIs the evidence being used to rebut a representation that was later denied (EA s 103)? OR \n Is the evidence being used by a party to bolster the credibility of their own witness (EA s 108)",
+    "question": "Is the evidence being used to attack the credibility of an opposing witness (EA s103)? OR\nIs the evidence being used to rebut a representation that was later denied (EA s 103)? OR\nIs the evidence being used by a party to bolster the credibility of their own witness (EA s 108)",
     "questiontype": "Question",
     "yesid": "CA001",
     "noid": "CA002",
@@ -354,7 +354,7 @@
     "parentid": "CQ001",
     "question": "The evidence is likely admissible for a credibility use. NB: there may be further implications to note if an opposing witness is being cross-examined (see EA s 103), or if they are attacking the credibility of a party’s own witness (see EA s 108A). We encourage you to explore these.",
     "questiontype": "Answer",
-    "yesid": "",
+    "yesid": "OQ001",
     "noid": "",
     "isnotypequestion": "no",
     "nextsectionid": "OQ001"
@@ -402,10 +402,10 @@
     "parentid": "OQ001",
     "question": "Next Section!( Click ok to move to the next section)",
     "questiontype": "Statement",
-    "yesid": "",
+    "yesid": "AQ001",
     "noid": "",
     "isnotypequestion": "no",
-    "nextsectionid": "AS001"
+    "nextsectionid": "AQ001"
   },
   {
     "topic": "Opinion",
@@ -496,7 +496,7 @@
     "topicseqid": 11,
     "id": "OQ005",
     "parentid": "OQ004",
-    "question": "Keep in mind, there are 3 thresholds that must be satisfied. Does the opinion evidence satisfy EACH OF the following?\n1) there is specialised knowledge to be applied to this issue (refer to Smith v The Queen (2001), R v Hien Puoc Tang [2006]); AND\n2)The expert has acquired the knowledge through training, study, or experience (remember ‘ad hoc’ experts exist, and refer to R v Leung and Wong (1999)); AND\n3)The opinion is wholly or substantially based on that ‘knowledge’.",
+    "question": "Keep in mind, there are 3 thresholds that must be satisfied. Does the opinion evidence satisfy EACH OF the following?\n 1) there is specialised knowledge to be applied to this issue (refer to Smith v The Queen (2001), R v Hien Puoc Tang [2006]); AND\n2)The expert has acquired the knowledge through training, study, or experience (remember ‘ad hoc’ experts exist, and refer to R v Leung and Wong (1999)); AND\n3)The opinion is wholly or substantially based on that ‘knowledge’.",
     "questiontype": "Question",
     "yesid": "OA006",
     "noid": "OS002",
@@ -529,7 +529,7 @@
   },
   {
     "topic": "Admission",
-    "topicseqid": 1,
+    "topicseqid": 14,
     "id": "AS001",
     "parentid": "",
     "question": "It is an admission. The hearsay rule and the opinion rule does not apply.(Section 81)",
@@ -541,7 +541,7 @@
   },
   {
     "topic": "Admission",
-    "topicseqid": 2,
+    "topicseqid": 15,
     "id": "AS002",
     "parentid": "",
     "question": "It is not an admission. The hearsay rule and the opinion rule does apply.(Section 82)",
@@ -553,7 +553,7 @@
   },
   {
     "topic": "Admission",
-    "topicseqid": 3,
+    "topicseqid": 1,
     "id": "AQ001",
     "parentid": "",
     "question": "Was there a statement made by a person who is or becomes a party to a proceeding(defendant/party) and is it against the interest of the parties (Part 1: Definitions of the EA).",
@@ -565,7 +565,7 @@
   },
   {
     "topic": "Admission",
-    "topicseqid": 4,
+    "topicseqid": 2,
     "id": "AQ002",
     "parentid": "Q001",
     "question": "Is the evidence of the Statement being made first hand in that: A) Was the evidence of the statement given by a person who witnesses the admission being made first hand or, B)Was the admission made by a document?",
@@ -577,7 +577,7 @@
   },
   {
     "topic": "Admission",
-    "topicseqid": 5,
+    "topicseqid": 3,
     "id": "AQ003",
     "parentid": "Q002",
     "question": "Does the admission used to affect the case of a third party OR against a third party?",
@@ -589,7 +589,7 @@
   },
   {
     "topic": "Admission",
-    "topicseqid": 6,
+    "topicseqid": 4,
     "id": "AA004",
     "parentid": "Q003",
     "question": "Section 83(1) of the Evidence Act – Hearsay and Opinion Rule Exceptions\nThe hearsay rule and the opinion rule may apply, unless the following condition is met:\nSection 83(2): The third party consents to the statement being used as evidence.\n  • Note: Consent must be given for the entire evidence, not just a portion.Section 83(4)",
@@ -601,7 +601,7 @@
   },
   {
     "topic": "Admission",
-    "topicseqid": 7,
+    "topicseqid": 5,
     "id": "AQ005",
     "parentid": "Q002",
     "question": "Was the Admission influenced by conduct which may be characterised as violent,opressive, inhuman/degrading/coercive or threatening?(S 84(1)(a)(b)) [Only go through this if it is a raised issue in the proceedings (S 84(2))]",
@@ -613,7 +613,7 @@
   },
   {
     "topic": "Admission",
-    "topicseqid": 8,
+    "topicseqid": 6,
     "id": "AA005",
     "parentid": "AQ005",
     "question": "Section 84 applies → Admission not admissible",
@@ -625,7 +625,7 @@
   },
   {
     "topic": "Admission",
-    "topicseqid": 9,
+    "topicseqid": 7,
     "id": "AQ006",
     "parentid": "",
     "question": "In A CRIMINAL PROCEEDING ONLY: was an oral admission made by the defendant to an investigating official OR in response to a question/representation?",
@@ -637,7 +637,7 @@
   },
   {
     "topic": "Admission",
-    "topicseqid": 10,
+    "topicseqid": 8,
     "id": "AQ007",
     "parentid": "",
     "question": "Was the oral admission made in circumstances where the truth of the admission was likely unaffected?",
@@ -649,7 +649,7 @@
   },
   {
     "topic": "Admission",
-    "topicseqid": 11,
+    "topicseqid": 9,
     "id": "AS003",
     "parentid": "",
     "question": "It is an admission. The hearsay rule and the opinion rule does not apply.(Section 81) However, the courts may choose to refuse to admit the admission ( Press Ok for that test)",
@@ -661,7 +661,7 @@
   },
   {
     "topic": "Admission",
-    "topicseqid": 12,
+    "topicseqid": 10,
     "id": "AQ008",
     "parentid": "",
     "question": "Is the evidence presented by the prosecution (S 90(a))",
@@ -673,7 +673,7 @@
   },
   {
     "topic": "Admission",
-    "topicseqid": 13,
+    "topicseqid": 11,
     "id": "AQ009",
     "parentid": "",
     "question": "Would admitting the evidence be unfair to the defendant based on teh circumstances of the admission?",
@@ -685,7 +685,7 @@
   },
   {
     "topic": "Admission",
-    "topicseqid": 14,
+    "topicseqid": 12,
     "id": "AS004",
     "parentid": "",
     "question": "Courts may refuse to admit the full or partial admission",
@@ -697,19 +697,19 @@
   },
   {
     "topic": "Admission",
-    "topicseqid": 15,
+    "topicseqid": 13,
     "id": "AS005",
     "parentid": "",
     "question": "Evidence may be admitted.",
     "questiontype": "Statement",
-    "yesid": "",
+    "yesid": "TCS003",
     "noid": "",
     "isnotypequestion": "no",
-    "nextsectionid": "TCS001"
+    "nextsectionid": "TCS003"
   },
   {
     "topic": "Tendency and Coincidence",
-    "topicseqid": 1,
+    "topicseqid": 13,
     "id": "TCS001",
     "parentid": "",
     "question": "It is admissible!",
@@ -721,7 +721,7 @@
   },
   {
     "topic": "Tendency and Coincidence",
-    "topicseqid": 2,
+    "topicseqid": 14,
     "id": "TCS002",
     "parentid": "",
     "question": "It is not admissible.",
@@ -733,7 +733,7 @@
   },
   {
     "topic": "Tendency and Coincidence",
-    "topicseqid": 3,
+    "topicseqid": 1,
     "id": "TCS003",
     "parentid": "",
     "question": "NB: the tendency and coincidence uses of evidence are extremely contentious in terms of jurisprudential and ethical debates. There is no black and white pathway or answer.",
@@ -745,7 +745,7 @@
   },
   {
     "topic": "Tendency and Coincidence",
-    "topicseqid": 4,
+    "topicseqid": 2,
     "id": "TCQ001",
     "parentid": "TCS003",
     "question": "Does the evidence fall under the tendency or coincidence rule?",
@@ -757,7 +757,7 @@
   },
   {
     "topic": "Tendency and Coincidence",
-    "topicseqid": 5,
+    "topicseqid": 3,
     "id": "TCQ002",
     "parentid": "TCQ001",
     "question": "Is your evidence a tendency (rather than a coincidence), where the evidence is of the character, reputation or conduct of a person, or a tendency that a person has or had and is therefore not admissible, per EA s 97?",
@@ -769,7 +769,7 @@
   },
   {
     "topic": "Tendency and Coincidence",
-    "topicseqid": 6,
+    "topicseqid": 4,
     "id": "TCS004",
     "parentid": "TCQ002",
     "question": "The evidence is likely not admissible, unless the following exceptions apply (or will be applied).",
@@ -781,7 +781,7 @@
   },
   {
     "topic": "Tendency and Coincidence",
-    "topicseqid": 7,
+    "topicseqid": 5,
     "id": "TCQ003",
     "parentid": "TCS004",
     "question": "Do the following exceptions apply to the evidence?\na)The party seeking to adduce the evidence gives reasonable notice in writing to the other party of the party’s intention to adduce the evidence; and\nb)the court thinks that the evidence will, either by itself or having regard to other evidence, have significant probative value.",
@@ -793,7 +793,7 @@
   },
   {
     "topic": "Tendency and Coincidence",
-    "topicseqid": 8,
+    "topicseqid": 6,
     "id": "TCS005",
     "parentid": "TCS004",
     "question": "The evidence is likely admissible due to an exception to the s 97 Tendency rule.  NB: Special thresholds may apply to criminal matters if evidence is adduced by the prosecution. Refer to EA s 101. You may then refer to key cases, Pfennig v The Queen (1995) and R v Ellis [2003], in your answer/notes. These are not covered in this database as they require your own individually worded critique and analysis of the issues.",
@@ -805,7 +805,7 @@
   },
   {
     "topic": "Tendency and Coincidence",
-    "topicseqid": 9,
+    "topicseqid": 7,
     "id": "TCQ006",
     "parentid": "TCQ002",
     "question": "Then is your evidence a coincidence, where evidence that two or more things happened is used to prove that someone did something or felt a certain way, just because the events were similar and it seems unlikely they were a coincidence? And it is therefore not admissible per EA s 98?",
@@ -817,7 +817,7 @@
   },
   {
     "topic": "Tendency and Coincidence",
-    "topicseqid": 10,
+    "topicseqid": 8,
     "id": "TCS006",
     "parentid": "TCQ006",
     "question": "The evidence is likely not admissible, unless the following exceptions apply (or will be applied),",
@@ -829,7 +829,7 @@
   },
   {
     "topic": "Tendency and Coincidence",
-    "topicseqid": 11,
+    "topicseqid": 9,
     "id": "TCQ007",
     "parentid": "TCS006",
     "question": "Do the following exceptions apply to the evidence?\na)The party seeking to adduce the evidence gives reasonable notice in writing to the other party of the party’s intention to adduce the evidence; and\nb)the court thinks that the evidence will, either by itself or having regard to other evidence, have significant probative value.",
@@ -841,7 +841,7 @@
   },
   {
     "topic": "Tendency and Coincidence",
-    "topicseqid": 12,
+    "topicseqid": 10,
     "id": "TCA001",
     "parentid": "TCQ007",
     "question": "The evidence is likely admissible due to an exception to the s 98 Coincedence rule.  NB: Special thresholds may apply to criminal matters if evidence is adduced by the prosecution. Refer to EA s 101. You may then refer to key cases, Pfennig v The Queen (1995) and R v Ellis [2003], in your answer/notes. These are not covered in this database as they require your own individually worded critique and analysis of the issues.",
@@ -853,7 +853,7 @@
   },
   {
     "topic": "Tendency and Coincidence",
-    "topicseqid": 13,
+    "topicseqid": 11,
     "id": "TCS007",
     "parentid": "TCQ006",
     "question": "Your evidence is not a tendency or a coincidence. Try a different threshold.",
@@ -865,12 +865,12 @@
   },
   {
     "topic": "Tendency and Coincidence",
-    "topicseqid": 14,
+    "topicseqid": 12,
     "id": "TCS008",
     "parentid": "TCS007",
     "question": "Next Section!",
-    "questiontype": "",
-    "yesid": "",
+    "questiontype": "Answer",
+    "yesid": "HS001",
     "noid": "",
     "isnotypequestion": "no",
     "nextsectionid": "HS001"
@@ -895,7 +895,7 @@
     "question": "Does the rule against hearsay apply to the evidence, IE is the evidence a previous representation made by a person per EA s 59 being used to prove an asserted fact?",
     "questiontype": "Question",
     "yesid": "HA001",
-    "noid": "HS001",
+    "noid": "HA002",
     "isnotypequestion": "no",
     "nextsectionid": ""
   },
@@ -914,14 +914,14 @@
   {
     "topic": "Hearsay",
     "topicseqid": 4,
-    "id": "HS001",
+    "id": "HA002",
     "parentid": "HQ001",
     "question": "The evidence is likely not hearsay and therefore is admissable",
     "questiontype": "Answer",
     "yesid": "",
     "noid": "",
     "isnotypequestion": "no",
-    "nextsectionid": "DS001"
+    "nextsectionid": ""
   },
   {
     "topic": "Hearsay",
@@ -978,7 +978,7 @@
     "parentid": "HQ003",
     "question": "The hearsay rule does not apply to evidence in civil proceedings where:\n the maker is available and;\nit would cause undue expense or undue delay, \nor would not be reasonably practicable to call the person who made the representation to give evidence per s 64. If these conditions are satisfied, Click Yes. Otherwise Click No.",
     "questiontype": "Question",
-    "yesid": "HS001",
+    "yesid": "HA002",
     "noid": "HS002",
     "isnotypequestion": "no",
     "nextsectionid": ""
@@ -990,7 +990,7 @@
     "parentid": "HQ003",
     "question": "The hearsay rule does not apply to evidence in civil proceedings where the maker is unavailable, or a document if it contains the representation and you can understand the representation just from the document.If these conditions are satisfied, Click Yes. Otherwise Click No.",
     "questiontype": "Question",
-    "yesid": "HS001",
+    "yesid": "HA002",
     "noid": "HS002",
     "isnotypequestion": "no",
     "nextsectionid": ""
@@ -1002,8 +1002,8 @@
     "parentid": "HQ005",
     "question": "The hearsay rule does not apply to evidence in criminal proceedings where the maker is available and the occurrence of the asserted fact was fresh in the memory per s 66. ‘Fresh in the memory’ per s 66(2A) considers:\na)the nature of the event concerned; and\nb)the age and health of the person; and\nc)the period of time between the occurrence of the asserted fact and the making of the representation.If these conditions are satisfied, Click Yes. Otherwise Click No.",
     "questiontype": "Question",
-    "yesid": "",
-    "noid": "",
+    "yesid": "HA002",
+    "noid": "HS002",
     "isnotypequestion": "no",
     "nextsectionid": ""
   },
@@ -1014,7 +1014,7 @@
     "parentid": "HQ005",
     "question": "The hearsay rule does not apply to evidence in criminal proceedings where the maker is unavailable, or a document if it contains the representation and you can understand the representation just from the document.If these conditions are satisfied, Click Yes. Otherwise Click No.",
     "questiontype": "Question",
-    "yesid": "HS001",
+    "yesid": "HA002",
     "noid": "HS002",
     "isnotypequestion": "no",
     "nextsectionid": ""
@@ -1044,12 +1044,24 @@
     "nextsectionid": ""
   },
   {
+    "topic": "Hearsay",
+    "topicseqid": 15,
+    "id": "HS003",
+    "parentid": "HA002",
+    "question": "Next Section!",
+    "questiontype": "Answer",
+    "yesid": "DQ001",
+    "noid": "",
+    "isnotypequestion": "",
+    "nextsectionid": "DQ001"
+  },
+  {
     "topic": "Discretionary",
-    "topicseqid": 1,
+    "topicseqid": 7,
     "id": "DS001",
     "parentid": "",
     "question": "These are discretionary exclusions. Use this sections to assess whether the court would admit the evidence or not.",
-    "questiontype": "Question",
+    "questiontype": "Answer",
     "yesid": "DQ001",
     "noid": "",
     "isnotypequestion": "no",
@@ -1057,7 +1069,7 @@
   },
   {
     "topic": "Discretionary",
-    "topicseqid": 2,
+    "topicseqid": 1,
     "id": "DQ001",
     "parentid": "DS001",
     "question": "Is the probative value substantially outweighed by the risk that the evidence:\n(a) May be unfairly prejudicial to a party OR\n(b) May mislead or confuse the court OR\n(c) Is a waste of time? [ Section 135]",
@@ -1069,7 +1081,7 @@
   },
   {
     "topic": "Discretionary",
-    "topicseqid": 3,
+    "topicseqid": 2,
     "id": "DA001",
     "parentid": "DQ001",
     "question": "It is not admissible.",
@@ -1081,7 +1093,7 @@
   },
   {
     "topic": "Discretionary",
-    "topicseqid": 4,
+    "topicseqid": 3,
     "id": "DQ002",
     "parentid": "DQ001",
     "question": "Is the probative value substantially outweighed by risk that the evidence:\n(a) May be unfairly prejudicial to a party OR\n(b) May mislead or confuse the court [Section 136]",
@@ -1093,7 +1105,7 @@
   },
   {
     "topic": "Discretionary",
-    "topicseqid": 5,
+    "topicseqid": 4,
     "id": "DQ003",
     "parentid": "DQ002",
     "question": "Is it a criminal proceeding?",
@@ -1105,7 +1117,7 @@
   },
   {
     "topic": "Discretionary",
-    "topicseqid": 6,
+    "topicseqid": 5,
     "id": "DQ004",
     "parentid": "DQ003",
     "question": "(Section 137):\nIs the probative value outweighed by the danger of unfair prejudice to the defendant?",
@@ -1117,7 +1129,7 @@
   },
   {
     "topic": "Discretionary",
-    "topicseqid": 7,
+    "topicseqid": 6,
     "id": "DA002",
     "parentid": "DQ004",
     "question": "It is most likely admissible",
