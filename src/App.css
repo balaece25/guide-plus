@@ -152,4 +152,5 @@ button {
 
     .error-message{
       color:crimson;
+      text-align: right;
     }
