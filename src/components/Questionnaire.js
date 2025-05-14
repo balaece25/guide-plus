@@ -8,6 +8,7 @@ function Questionnaire() {
   const [allquestions, setAllQuestions] = useState([]);
   const [questions, setQuestions] = useState([]);
   const [currentQuestion, setCurrentQuestion] = useState(null);
+  const [previousQuestion, setPreviousQuestion] = useState(null);
 
   useEffect(() => {
     fetch('/questions.json')
@@ -22,10 +23,15 @@ function Questionnaire() {
       .catch((error) => console.error('Error loading questions:', error));;
   }, [category]);
   
-
+  const handleBack = () => {
+     if(previousQuestion != null){
+      setCurrentQuestion(previousQuestion);
+     }
+  };
   const handleAnswer = (answer) => {
     const nextId = currentQuestion[answer];
     const nextSectionId = currentQuestion["nextsectionid"];
+    setPreviousQuestion(currentQuestion);
 
     if(nextSectionId !== '' && nextSectionId !== 'end'){
       const nextQuestionSection = allquestions.find(q => q.id === nextSectionId);
@@ -37,7 +43,6 @@ function Questionnaire() {
     } else {
     if (nextId !== '') {      
       const next = questions.find(q => q.id === nextId);
-      console.log(next);
       setCurrentQuestion(next);
     }
   }
@@ -55,7 +60,7 @@ function Questionnaire() {
        (<>
        <div className="d-flex justify-content-center gap-3 mt-4" >
         {currentQuestion.isnotypequestion === 'yes' ? (<>
-               <button className="btn btn-primary px-5 py-2" onClick={() => handleAnswer('parentid')}>
+               <button className="btn btn-primary px-5 py-2" onClick={() => handleBack()}>
                     Back
                   </button>
                   <Button
@@ -63,17 +68,16 @@ function Questionnaire() {
                     to="/"
                     variant="primary"
                   > Start Page</Button>
-        </>)
-        : (<>
-                  <button className="btn btn-success px-5 py-2" onClick={() => handleAnswer('yesid')}>
+        </>):(<></>)}
+                  <button className="btn btn-success px-5 py-2" onClick={() => handleAnswer('yesid')}
+                    style={{display: currentQuestion.yesid === '' ? 'none' : 'block' }}>
                     {currentQuestion.noid === '' ? 'OK' : 'YES' }
                   </button>
                   <button className="btn btn-danger px-5 py-2" onClick={() => handleAnswer('noid')}
                     style={{display: currentQuestion.noid === '' ? 'none' : 'block' }}>
                     No
                   </button>
-
-        </>)}</div>
+                  </div>
        </>)}
     </Container>
   );
