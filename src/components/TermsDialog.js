@@ -3,7 +3,7 @@ import { Modal, Button } from 'react-bootstrap';
 
 function TermsDialog({ show, onAccept, onDecline }) {
   return (
-    <Modal show={show} onHide={onDecline} centered>
+    <Modal show={show} onHide={onDecline} centered className='modal-lg'>
       <Modal.Header>
         <Modal.Title>Terms and Conditions for Evidentia</Modal.Title>
       </Modal.Header>
