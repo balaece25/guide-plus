@@ -61,13 +61,13 @@ function Questionnaire() {
        <div className="d-flex justify-content-center gap-3 mt-4" >
         {currentQuestion.isnotypequestion === 'yes' ? (<>
                <button className="btn btn-primary px-5 py-2" onClick={() => handleBack()}>
-                    Back
+                  Go Back
                   </button>
                   <Button
                     as={Link}
                     to="/"
                     variant="primary"
-                  > Start Page</Button>
+                  > Go Home</Button>
         </>):(<></>)}
                   <button className="btn btn-success px-5 py-2" onClick={() => handleAnswer('yesid')}
                     style={{display: currentQuestion.yesid === '' ? 'none' : 'block' }}>
