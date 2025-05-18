@@ -9,7 +9,7 @@ function TermsDialog({ show, onAccept, onDecline }) {
       </Modal.Header>
       <Modal.Body style={{maxHeight: '60vh', overflowY: 'auto' }}>
         <p>
-Welcome to <b>Evidentia</b>- a <a href='https://www.linkedin.com/company/ranilegal/'>RaniLegal</a> fundraiser by Yaashvanthi Murugan and Zahra
+Welcome to <b>Evidentia</b> - a <a href='https://www.linkedin.com/company/ranilegal/'>RaniLegal</a> fundraiser by Yaashvanthi Murugan and Zahra
 Moloobhoy, designed to guide you through the admissibility ‘flow chart’ of Evidence
 Law. </p>
 
