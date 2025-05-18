@@ -104,53 +104,13 @@ button {
   margin-top:1rem;
 }
 
+.error-message{
+  color:crimson;
+  text-align: right;
+}
 
-    .title, .item {
-      font-size: 1.2rem;
-      position: relative;
-      padding-left: 2rem;
-    }
-
-    /* Add icons using ::before and content */
-    .documents::before {
-      content: "\f444"; /* bi-journal-text */
-    }
-
-    .relevance::before {
-      content: "\f3c5"; /* bi-filter-circle */
-    }
-    .credibility::before {
-      content: "\f4c6"; /* bi-patch-check */
-    }
-    .opinion::before {
-      content: "\f4a3"; /* bi-chat-left-text */
-    }
-    .admission::before {
-      content: "\f12e"; /* bi-box-arrow-in-right */
-    }
-    .tendency::before {
-      content: "\f38d"; /* bi-graph-up-arrow */
-    }
-    .hearsay::before {
-      content: "\f589"; /* bi-ear */
-    }
-    .discretionary::before {
-      content: "\f4b0"; /* bi-sliders */
-    }
-
-    .title::before,
-    .item::before {
-      font-family: "bootstrap-icons";
-      font-style: normal;
-      font-weight: normal;
-      font-size: 1.2rem;
-      position: relative;
-      left: 0;
-      top: 3px;
-      padding-right:3px;
-    }
-
-    .error-message{
-      color:crimson;
-      text-align: right;
-    }
+.btn-primary {
+  background-color: #100530 !important;
+  border-color: #100530 !important;  
+;
+}

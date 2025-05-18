@@ -17,7 +17,7 @@ function Questionnaire() {
         setAllQuestions(data);     
         const categoryQuestions = data.filter((q) => q.topic === decodeURIComponent(category));
         setQuestions(categoryQuestions);
-        const first = categoryQuestions.find(q => q.topicseqid === 1);
+        const first = categoryQuestions.find(q => q.issectionfirstquestion === "yes");
         setCurrentQuestion(first);
       })
       .catch((error) => console.error('Error loading questions:', error));;

@@ -1,0 +1,201 @@
+uniqueid,topic,issectionfirstquestion,id,parentid,question,questiontype,yesid,noid,isnotypequestion,nextsectionid
+1,Documents and Witnesses,yes,DWS001,,This section focuses on the nature of the documents and witnesses- plus their availability and/or compellability. ,Statement,DWQ001, ,no,
+2,Documents and Witnesses,no,DWQ001,DWS001,Is the evidence a document per EA s 47 (definitions)?,Question,DWQ002,DWQ003,no,
+3,Documents and Witnesses,no,DWQ002,DWQ001,"You will therefore be 'tendering' the document. 
+Is the document available per EA definitions part 2, s 5? 
+Note that a document is unavailable if: 
+a) The document or thing cannot be found after a reasonable search.
+b) It was destroyed (not in bad faith) by the party or someone else.
+c) It would be impractical to produce it during the proceeding.
+d) Producing it could lead to a criminal offence.
+e) It is not in the party’s possession or control, and:
+i) It cannot be obtained through court procedures, or
+ii) Another party has it and knows (or should know) it's likely relevant, or
+iii) Another party had it when they knew (or should have known) it was likely relevant.",Question,DWA001,DWA002,no,
+4,Documents and Witnesses,no,DWQ003,DWQ001,Is the evidence coming from a witness?,Question,DWQ004,DWA002,no,
+5,Documents and Witnesses,no,DWQ004,DWQ003,"The evidence will be in the form of 'witness testimony'.
+Is the witness competent per EA s 13? 
+Note: A person is not competent to give evidence about a fact per EA s 13(1) if:
+a) the person does not have the capacity to understand a question about the fact
+b) or the person does not have the capacity to give an answer that can be understood to a question about the fact;
+and that incapacity cannot be overcome*
+
+*Note: If there is some incapacity that can be overcome (without causing substanital costs or delays per EA s 14(a)),
+a) The witness IS competent and:
+b) The witness can give either unsworn evidence per EA s 13(3); or
+c) Give sworn evidence to parts of the evidence per EA s 13(2).
+
+Other EA s 13 sub-sections may apply.",Question,DWQ005,DWA001,no,
+6,Documents and Witnesses,no,DWQ005,DWQ004,"Is the witness compellable per EA s 14 or 15? 
+
+Note: in addition to unremediable incapacity per s 14, a witness is not compellable per s 15 if they are:
+(a) the Sovereign
+(b) the Governor-General
+(c) the Governor of a State
+(d) the Administrator of a Territory
+(e) a foreign sovereign or the Head of State of a foreign country.
+
+Note: If it is a criminal proceeding, please refer to EA s 18, where:
+a) Spouses; or
+b) De Facto Partners; or
+c) Parents; or
+d) Children of defendants may not be compellable upon the court's analysis of several factors.
+ ",Question,DWA001,DWA002,no,
+7,Documents and Witnesses,no,DWA001,DWQ002,The evidence is likely admissible at this stage.,Question,DWS002,,no,
+8,Documents and Witnesses,no,DWA002,DWQ002,The evidence is likely inadmissible.,Answer,,,no,
+9,Documents and Witnesses,no,DWS002,DWA001,"The next threshold is relevance. Click 'Ok' to continue. Otherwise, click the logo to go back to the start page.",Statement,RS001,,yes,RS001
+10,Relevance,yes,RS001,,Take a second to note the fact in issue (FIS) if you ignored it before.,Answer,RQ001,,no,
+11,Relevance,no,RQ001,RS001,"Is the evidence relevant to the FIS? 
+That is, could the evidence rationally (directly or indirectly) affect the assessment of the probability of the existence of a FIS per EA s 55?",Question,RA001,RQ002,no,
+12,Relevance,no,RA001,RQ001,Your evidence is relevant and may be admissible if it passes other thresholds.,Answer,RS002,,no,
+13,Relevance,no,RQ002,RQ001,"The evidence might not be related to the FIS, but there's still hope!
+
+Is the evidence related to:
+a) The credibility of witnesses (EA s 55(2)(a)); or
+b) Admissibility of the evidence (EA s 55(2)(b)); or
+c) A failure to adduce evidence (EA s 55(2)(c))?
+",Question,RA001,RA002,no,
+14,Relevance,no,RA002,RQ002,"Your evidence is not relevant and is likely not admissible. You may still like to explore other thresholds. Click 'Ok' to continue to Hearsay. Otherwise, click the logo to go back to the start page.",Question,HS001,,no,HS001
+15,Relevance,no,RS002,RA001,"The next threshold is Hearsay. Click 'Ok' to continue. Otherwise, click the logo to go back to the start page",Statement,HS001,,no,HS001
+16,Hearsay,yes,HS001,,"Before analysing the admissibility of hearsay evidence, note the following:
+
+a) What is the previous representation? 
+b) Who is the maker of it?
+c) Who is the witness who perceived the representation? 
+",Statement,HQ001,,no,
+17,Hearsay,no,HQ001,HS001,"Is the evidence relevant for a Hearsay purpose per EA s 59 and s 60? That is, is the representation relevant for proving the validity of an asserted fact?
+
+Note: This does not apply if it's an admission made in a criminal proceeding. Please explore 'admissions'.",Question,HQ002,HA001,no,
+18,Hearsay,no,HA001,HQ001,The evidence is relevant for a non-hearsay purpose per EA s 61 and the hearsay rule does not apply. Proceed to the next threshold.,Answer,HS002,,no,
+19,Hearsay,no,HQ002,HA001,"Is the previous representation made by the MAKER:
+a) heard
+b) seen
+c) or otherwise perceived 
+by the WITNESS on a first-hand basis per EA s 62?",Question,HA003,HA005,no,
+20,Hearsay,no,HA003,HQ002,"The hearsay rule is applied on a 'prima facie' (initial, subject to exceptions) basis, and the evidence is inadmissible per EA s 59. EXCEPTIONS MAY APPLY- CLICK 'OK' TO EXPLORE THEM.",Answer,HQ003,,no,
+21,Hearsay,no,HQ003,HA003,Is the evidence in relation to a civil proceeding?,Question,HQ004,HQ005,no,
+22,Hearsay,no,HQ004,HQ003,"Is the maker available per EA dictionary Part 2, s 4 and s 5?",Question,HQ006,HQ007,no,
+23,Hearsay,no,HQ006,HQ004,"The hearsay rule does not apply to evidence (so the hearsay evidence is still admissible) in civil proceedings per EA s 64 where:
+a) If it is witness testimony, the maker is available; or
+b) If it is a document, the document contains the representation, and you can understand the representation just from the document; (more exceptions will be explored if it's a document)
+c) AND It would not be reasonably practicable to call the person who made the representation to give evidence.
+
+Are these conditions satisfied?",Question,HQ008,HQ008,no,
+24,Hearsay,no,HQ007,HQ004,"The hearsay rule does not apply to evidence in civil proceedings where:
+a) if it is witness testimony, the maker is unavailable
+b) if it is a document, it contains the representation, and you can understand the representation just from the document per EA s 63
+
+Are these conditions satisfied?",Question,HA004,HQ008,no,
+25,Hearsay,no,HQ005,HQ003,Is the evidence in relation to a criminal proceeding?,Question,HQ009,HA004,no,
+26,Hearsay,no,HQ009,HQ005,"Is the maker available per EA dictionary Part 2, s 4 and s 5?",Question,HQ010,HQ011,no,
+27,Hearsay,no,HQ010,HQ009,"The hearsay rule does not apply to evidence in criminal proceedings where the maker is available and the occurrence of the asserted fact was fresh in the memory per EA s 66.
+Fresh in the memory’ per s 66(2A) considers:
+a) the nature of the event concerned; and
+b) the age and health of the person; and
+c) the period of time between the occurrence of the asserted fact and the making of the representation.
+
+Was the evidence 'fresh in the memory' at the time it was represented? [Keep in mind, if it isn't witness testimony or if it isn't fresh in the memory, other exceptions may still be applicable. Click 'NO' and just continue the process'].",Question,HA004,HQ008,no,
+28,Hearsay,no,HQ011,HQ009,"The hearsay rule does not apply to evidence in criminal proceedings where the maker is unavailable, or a document if it contains the representation and you can understand the representation just from the document per S 65.If these conditions are satisfied, Click Yes. Otherwise Click No.",Question,HQ008,HA005,no,
+29,Hearsay,no,HQ008,,Is the evidence a document?,Question,HQ012,HA005,no,
+30,Hearsay,no,HQ012,HQ008,"The hearsay rule does not apply if the document is:
+- a business document [can include a medical document, make sure you look at the legislation!] (s 69); or
+- tags or labels(s 70); or 
+- a form of electronic communication(s 71); or
+- Indigenous Customs and Laws(s 72); or
+- reputation of relationships and age(s 73); or
+- reputation of public or general rights(s 74); or
+- interlocutory proceedings?
+Do any of these apply?",Question,HA004,HA005,no,
+31,Hearsay,no,HA004,,"If notice is provided per EA s 67, and with leave of the court per EA s 192 the evidence is likely admissible for a Hearsay use",Statement,HS002,,no,
+32,Hearsay,no,HA005,,The Hearsay Rule applies and the evidence is not admissible.,Statement,,,no,
+33,Hearsay,no,HS002,HA004,"The next threshold is credibility. Click 'Ok' to continue. Otherwise, click the logo to go back to the start page",Statement,CS001,,no,
+34,Credibility,yes,CS001,,"Note that credibility evidence is evidence that proves whether a particular person is, or is not, a credible or reliable source of testimony or usable hearsay. Don't mix this up with character evidence! ",Statement,CQ001,,no,
+35,Credibility,no,CQ001,CS001,"Does the Credibility Rule apply to the evidence per EA s 102?  That is, does the evidence speak to the credibility of a witness in the proceedings per EA s 101A?",Question,CA001,CA002,no,
+36,Credibility,no,CA001,CQ001,"The evidence is likely inadmissible, UNLESS exceptions can be applied. Click 'OK' to explore these exceptions.",Answer,CQ002,,no,
+37,Credibility,no,CA002,CQ001,"Therefore, your evidence is likely to be admissible.",Answer,CS002,,no,
+38,Credibility,no,CQ002,CA001," Do any of the following (summarised) exceptions apply to the evidence? 
+-The evidence is being used to attack the credibility of an opposing witness per EA s 103 OR,
+-The evidence is being used to rebut a representation that was later denied per EA s 103 OR,
+-The evidence is being used by a party to bolster the credibility of their own witness per EA s 108 OR,
+- The giver of the evidence has specialised knowledge per EA s 108C (you must explore this further by looking at ‘opinion evidence’ later) OR,
+- The evidence is being used to asses someone’s character IN CRIMINAL CASES per EA s 110.
+",Question,CA003,CA004,no,
+39,Credibility,no,CA003,CQ002,"The evidence is likely admissible for a credibility use, with leave of the court per EA s 192. NB: there may be further implications to note if an opposing witness is being cross-examined (see EA s 103), or if they are attacking the credibility of a party’s own witness (see EA s 108A). We encourage you to explore these. ",Answer,CS002,,no,
+40,Credibility,no,CA004,CQ002,The evidence is likely not admissible.,Answer,,,no,
+41,Credibility,no,CS002,,"The next threshold is Opinion. Click 'Ok' to continue. Otherwise, click the logo to go back to the start page",Statement,OS001,,no,OS001
+42,Opinion,yes,OS001,,"The Opinion rule says that opinions about the fact in issue are inadmissible. So before proceeding, take note of who your witness is, and what the 'opinion' or representation is concerning.",Statement,OQ001,,no,
+43,Opinion,no,OQ001,OS001,"Does the Opinion rule apply per EA s 76? That is, is the evidence an inference drawn from observed and communicable facts or data, as defined in Lithgow City Council v Jackson [2011]?",Question,OA001,OA002,no,
+44,Opinion,no,OA001,,"The evidence is likely not admissible per EA s 76, where evidence of an opinion is not admissible to prove the existence of a fact about the existence of which the opinion was expressed, UNLESS exceptions can be applied (Click Ok to see exceptions)",Answer,OQ002,,no,
+45,Opinion,no,OA002,OQ001,The evidence is likely admissible as the opinion rule per EA s 76 does not apply.,Statement,AQ002,,no,
+46,Opinion,no,OQ002,OA002,"Is the evidence a lay opinion per EA s 78?? That is, is the opinion based on:
+a) What the witness saw or otherwise perceived; and 
+b) Is the evidence of the opinion necessary to obtain an adequate understanding of the person’s perception of a matter or event?",Question,OA003,OA004,no,
+47,Opinion,no,OA003,OQ002,The evidence is admissible for s 78 lay opinion use as an exception to the s 76 opinion rule ,Answer,OS002,,yes,
+48,Opinion,no,OA004,OQ002,The evidence not is admissible for s 78 lay opinion use as an exception to the s 76 opinion rule. Proceed to another exception.,Answer,OQ003,,no,
+49,Opinion,no,OQ003,OA004,"Could the opinion be an expert opinion, IE, is it an opinion based on specialised knowledge per EA s 79?* 
+*Keep in mind, there are 3 thresholds that must be satisfied. Does the opinion evidence satisfy EACH OF the following?
+1) there is specialised knowledge to be applied to this issue (refer to Smith v The Queen (2001), R v Hien Puoc Tang [2006]); AND
+2)The expert has acquired the knowledge through training, study, or experience (remember ‘ad hoc’ experts exist, and refer to R v Leung and Wong (1999)); AND
+3)The opinion is wholly or substantially based on that ‘knowledge’.",Question,OA005,OA006,no,
+50,Opinion,no,OA005,OQ003,The evidence is admissible for s 79 expert opinion use as an exception to the s 76 opinion rule ,Question,OS002,,yes,
+51,Opinion,no,OA006,OQ003,The evidence is not admissible for EA s 79 expert opinion use as an exception to the s 76 opinion rule. This was the final exception.,Question,OS003,,no,
+52,Opinion,no,OS002,,The evidence is likely admissible as EA s 76 (Opinion Rule) does not apply. Continue to the next threshold.,Statement,OS004,,no,
+53,Opinion,no,OS003,,The evidence is likely not admissible per EA s 76 Opinion Rule.,Statement,,,no,
+54,Opinion,no,OS004,,"The next threshold is Admissions. Click 'Ok' to continue. Otherwise, click the logo to go back to the start page",Statement,AS001,,no,AS001
+55,Admission,yes,AS001,,"The Admission rule acts as an exception to the Hearsay or Opinion Rule. Before proceeding, please remember what the previous representation is!",Statement,AQ001,,no,
+56,Admission,no,AQ001,,"Was the statement made by a person who is (or becomes) a party to the proceeding (e.g. a defendant)? AND
+Is the statement against that party's interest?
+(Refer to Part 1: Definitions of EA)",Question,AQ002,AS002,no,
+57,Admission,no,AQ002,AQ001,"Is the evidence of the statement first-hand? That is,
+a) Was the evidence given by someone who directly heard/observed the admission?
+OR
+b) Was the admission made in a document?",Question,AA001,AS002,no,
+58,Admission,no,AA001,AQ002,"It is an admission. The hearsay rule and the opinion rule does not apply. (Section 81) However, the courts may choose to refuse to admit the admission due to exceptions (Click 'Ok' to explore these exceptions)",Answer,AQ003,,no,
+59,Admission,no,AQ003,AQ001,"Is the admission used to affect the case of a third party, OR is it used against a third party?",Question,AA002,AQ004,no,
+60,Admission,no,AA002,AQ003,"Unless the third party consents to the statement being used as evidence per EA s 83(4), the hearsay/opinion rule will still apply. The evidence will not be admissible per EA s 83(1).",Answer,AS002,,yes,
+61,Admission,no,AQ004,AQ003,"Was the Admission influenced by conduct which may be characterised as violent, oppressive, inhuman/degrading/coercive, or threatening per EA s 84(1)(a)(b)? [Only examine this if it is a raised issue in the proceedings per EA s 84(2)]",Question,AA003,AQ005,no,
+62,Admission,no,AA003,AQ004,EA s 84 applies and the admission not admissible,Answer,AS002,,no,
+63,Admission,no,AQ005,AA003,"Is the evidence being adduced in a criminal proceeding, where there was an oral admission made by the defendant to an investigating official OR in response to a question/representation?",Question,AQ006,AS002,no,
+64,Admission,no,AQ006,AQ005,Was the oral admission made in circumstances where the truth of the admission was likely unaffected?,Question,AA004,AS002,no,
+65,Admission,no,AA004,AQ006,"It is an admission. The hearsay rule and the opinion rule does not apply per EA s 81. However, the courts may still choose to refuse to admit the admission. Press OK to explore if such a circumstance will apply.",Answer,AQ007,,no,
+66,Admission,no,AQ007,AA004,Is the evidence presented by the prosecution (S 90(a))?,Question,AQ008,AS003,no,
+67,Admission,no,AQ008,AQ007,Would admitting the evidence be unfair to the defendant based on the circumstances of the admission?,Question,AA005,AS003,no,
+68,Admission,no,AA005,AQ008,The court is unlikley to admit the evidence at its own discretion.,Answer,AS002,,no,
+69,Admission,no,AS002,,The evidence may not be an admissible admisssion under section 81.,Statement,,,no,
+70,Admission,no,AS003,,The evidence may be an admissible admisssion under EA s 81.,Statement,AS004,,no,
+71,Admission,no,AS004,AS004,"The next threshold is Tendency and Coincidence. Click 'Ok' to continue. Otherwise, click the logo to go back to the start page",Statement,TCS001,,no,TCS001
+72,Tendency and Coincidence,yes,TCS001,,NB: the tendency and coincidence uses of evidence are extremely contentious in terms of jurisprudential and ethical debates. There is no black and white pathway or answer. Evidentia will guide you through the key questions and provisions.,Statement,TCQ001,,no,
+73,Tendency and Coincidence,no,TCQ001,TCS001,Does the evidence fall under the tendency or coincidence rule?,Question,TCQ002,TCA001,no,
+74,Tendency and Coincidence,no,TCQ002,TCQ001,"Is your evidence a tendency (rather than a coincidence), where the evidence is of the character, reputation or conduct of a person, or a tendency that a person has or had and is therefore not admissible, per EA s 97?",Question,TCA002,TCQ004,no,
+75,Tendency and Coincidence,no,TCA002,TCQ002,"The evidence is likely not admissible, unless exceptions apply (or will be applied). Click 'OK' to explore these exceptions.",Statement,TCQ003,,no,
+76,Tendency and Coincidence,no,TCQ003,TCA002,"Do the following exceptions apply to the evidence?
+a) The party seeking to adduce the evidence gives reasonable notice in writing to the other party of the party’s intention to adduce the evidence; and
+b) the court thinks that the evidence will, either by itself or having regard to other evidence, have significant probative value.
+",Question,TCA003,TCA001,no,
+77,Tendency and Coincidence,no,TCA003,TCQ003,"The evidence is likely admissible due to an exception to the s 97 Tendency rule.  NB: Special thresholds may apply to criminal matters if evidence is adduced by the prosecution. Refer to EA s 101. You may then refer to key cases, Pfennig v The Queen (1995) and R v Ellis [2003], in your answer/notes. These are not covered in this database as they require your own individually worded critique and analysis of the issues. Again, these areas are extremely jurisprudentiallty contentious.
+",Statement,TCA001,,no,
+78,Tendency and Coincidence,no,TCQ004,TCQ002,"Then, is your evidence a coincidence, where evidence that two or more things happened is used to prove that someone did something or felt a certain way, just because the events were similar and it seems unlikely they were a coincidence, per EA s 98?",Question,TCA004,TCA005,no,
+79,Tendency and Coincidence,no,TCA004,TCQ004,"The evidence is likely not admissible, unless exceptions apply (or will be applied). Click 'OK' to explore these exceptions.",Statement,TCQ005,,no,
+80,Tendency and Coincidence,no,TCQ005,TCQ004,"Do the following exceptions apply to the evidence?
+a)The party seeking to adduce the evidence gives reasonable notice in writing to the other party of the party’s intention to adduce the evidence; and
+b) the court thinks that the evidence will, either by itself or having regard to other evidence, have significant probative value.
+",Question,TCA006,TCS002,no,
+81,Tendency and Coincidence,no,TCA006,TCQ005,"The evidence is likely admissible due to an exception to the s 98 Coincidence rule.  NB: Special thresholds may apply to criminal matters if evidence is adduced by the prosecution. Refer to EA s 101. You may then refer to key cases, Pfennig v The Queen (1995) and R v Ellis [2003], in your answer/notes. These are not covered in this database as they require your own individually worded critique and analysis of the issues. Again, these areas are extremely jurisprudentiallty contentious.
+",Answer,TCS002,,no,
+82,Tendency and Coincidence,no,TCA005,TCQ004,Your evidence is not a tendency or a coincidence. Try a different threshold.,Answer,TCS002,,no,
+83,Tendency and Coincidence,no,TCS002,TCA005,"The next threshold is Discretionary Exclusions. Click 'Ok' to continue. Otherwise, click the logo to go back to the start page",Answer,DS001,,no,DS001
+84,Tendency and Coincidence,no,TCA001,TCQ001,"As Section 97 (admissions) becomes inapplicable, the evidence is likley admissible.",Answer,DS001,,no,DS001
+85,Discretionary,yes,DS001,,"These are discretionary exclusions. Use this sections to assess whether, after passing all other thresholds, the court would still refuse to admit the evidence.",Answer,DQ001,,no,
+86,Discretionary,no,DQ001,DS001,"Is the probative value of the evidence substantially outweighed by the risk that the evidence, per EA s 135:
+(a) May be unfairly prejudicial to a party OR
+(b) May mislead or confuse the court OR
+(c) Is a waste of time?
+",Question,DA001,DQ002,no,
+87,Discretionary,no,DA001,DQ001,The evidence is likely not admissible.,Answer,,,no,
+88,Discretionary,no,DQ002,DQ001,"Is the probative value substantially outweighed by risk that the evidence:
+(a) May be unfairly prejudicial to a party OR
+(b) May mislead or confuse the court
+Per EA s 136?",Question,DA001,DQ003,no,
+89,Discretionary,no,DQ003,DQ002,Is the evidence being adduced in a criminal proceeding?,Question,DQ004,DA002,no,
+90,Discretionary,no,DQ004,DQ003,Is the probative value outweighed by the danger of unfair prejudice to the defendant per EA s 137?,Question,DA001,DA002,no,
+91,Discretionary,no,DA002,DQ004,The evidence is most likely admissible,Answer,,,no,end

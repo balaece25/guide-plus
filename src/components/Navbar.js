@@ -9,12 +9,12 @@ function AppNavbar({ user, onLogout }) {
         <Navbar.Brand as={Link} to="/">
           <img
             src="/VD.PNG"
-            width="60"
+            width="50"
             height="40"
             className="d-inline-block align-middle"
-            alt="Voir Dire Logo"
+            alt="Evidentia Logo"
           />
-          {' '}Voir Dire
+         {' '} Evidentia
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">

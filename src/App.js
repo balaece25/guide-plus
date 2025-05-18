@@ -4,7 +4,6 @@ import LandingPage from './components/LandingPage';
 import Navbar from './components/Navbar'
 import Login from './components/Login';
 import TermsDialog from './components/TermsDialog';
-import AboutPage from './components/AboutPage';
 import Questionnaire from './components/Questionnaire';
 import './App.css';
 
@@ -48,7 +47,6 @@ function App() {
                 <>
               <Route path="/" element={<LandingPage />} />
               <Route path="/questionnaire/:category" element={<Questionnaire />} />
-              <Route path="/about" element={<AboutPage />} />
               <Route path="*" element={<Navigate to="/" />} />
               </> ) : (
                 <Route path="*" element={<Navigate to="/" />} />

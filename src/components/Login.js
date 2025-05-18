@@ -45,7 +45,7 @@ function Login({ onLogin }) {
           <Card.Title className="text-center">
             <div><img src="/VD.PNG" width="150" height="130" className='d-inline-block align-top'
             alt="Voir Dire Logo"/></div>
-            Welcome to Voir Dire</Card.Title>
+            Welcome to Evidentia</Card.Title>
           <Form onSubmit={handleSubmit}>
             <Form.Group controlId="formUsername" className="mb-3 d-flex align-items-center">
               <Form.Label className="me-2 mb-0" style={{width:'100px'}}>Username</Form.Label>
