@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Navbar, Nav, Container, Button } from 'react-bootstrap';
+import { Navbar, Nav, Container } from 'react-bootstrap';
 
 function AppNavbar({ user, onLogout }) {
   return (
@@ -20,12 +20,7 @@ function AppNavbar({ user, onLogout }) {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto">
             <Nav.Link as={Link} to="/">Home</Nav.Link>
-            <Navbar.Text className="mx-3">
-              Welcome, {user.username}
-            </Navbar.Text>
-            <Button variant="outline-light" onClick={onLogout}>
-              Logout
-            </Button>
+           
           </Nav>
         </Navbar.Collapse>
       </Container>

@@ -2,20 +2,15 @@ import React, { useState } from 'react';
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import LandingPage from './components/LandingPage';
 import Navbar from './components/Navbar'
-import Login from './components/Login';
 import TermsDialog from './components/TermsDialog';
 import Questionnaire from './components/Questionnaire';
 import './App.css';
 
 function App() {
    const [user, setUser] = useState(null); // Track logged-in user   
-  const [showTerms, setShowTerms] = useState(false); // Control terms dialog
+  const [showTerms, setShowTerms] = useState(true); // Control terms dialog
   const [termsAccepted, setTermsAccepted] = useState(false); // Track if terms are accepted
 
-  const handleLogin = (username) => {
-    setUser({ username });
-    setShowTerms(true);
-  };
 
   const handleTermsAccept = () => {
      setShowTerms(false);
@@ -37,9 +32,6 @@ function App() {
   return (
       <Router>
       <div className="App">
-        {!user ? (
-          <Login onLogin={handleLogin} />
-        ) : (
           <>
             <Navbar user={user} onLogout={handleLogout} />
             <Routes>
@@ -58,7 +50,6 @@ function App() {
               onDecline={handleTermsDecline}
             />
           </>
-        )}
       </div>
     </Router>
   );
